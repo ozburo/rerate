@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/abo/rerate"
-	"github.com/garyburd/redigo/redis"
+	"github.com/gomodule/redigo/redis"
 )
 
 func newRedigoPool(server, password string) *redis.Pool {
